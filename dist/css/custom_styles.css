@@ -1,0 +1,63 @@
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+.disabled {
+    cursor: not-allowed;
+    pointer-events: all !important;
+}
+
+.notification_message-details {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+}
+
+.notification_sender,
+.notification_datetime {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.notification_message {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.notification_message-content {
+    color: #555;
+}
+
+.steps_h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.steps_ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.steps_li {
+    margin-bottom: 20px;
+}
+
+.steps_badge {
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.steps_badge_educational {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.steps_badge_scholarship {
+    background-color: #27A444;
+    color: #fff;
+}
